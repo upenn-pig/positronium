@@ -10,7 +10,7 @@ def print_event(event):
 
     4. x (tangential) address, range 0-575 (each module: 2 pixels x 4 dies x 4 tiles along x; 18 modules in a ring)
 
-    5. z (axial) address, range 0-391 (2 pixels x 4 dies x 7 tiles along z for each ring). 0-55 for ring 1, 56-111 for ring 2, ...
+    5. z (axial) address, range 0-335 (2 pixels x 4 dies x 7 tiles along z for each ring). 0-55 for ring 6, 56-111 for ring 5, ...
 
     6. energy: 13 bit. By default bin #1000 corresponds to 511 keV. 
 
